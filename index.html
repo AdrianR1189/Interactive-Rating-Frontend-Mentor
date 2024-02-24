@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="components/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <div class="cardContainer hide">
+      <div class="starCircle">
+        <img
+          class="star"
+          src="/Interactive-rating-Frontend-Mentor/components/images/icon-star.svg"
+        />
+      </div>
+
+      <!-- Rating state start -->
+
+      <article class="textContent">
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+      </article>
+      <form class="numberBtnContainer">
+        <button type="button" class="numberBtn btn1">1</button>
+        <button type="button" class="numberBtn btn2">2</button>
+        <button type="button" class="numberBtn btn3">3</button>
+        <button type="button" class="numberBtn btn4">4</button>
+        <button type="button" class="numberBtn btn5">5</button>
+      </form>
+      <form class="submitBtnContainer">
+        <button type="button" class="submitBtn">Submit</button>
+      </form>
+    </div>
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <div class="showContainer">
+      <div>
+        <img
+          class="showImg"
+          src="/Interactive-rating-Frontend-Mentor/components/images/illustration-thank-you.svg"
+        />'
+      </div>
+      <div class="showRating"></div>
+      <article class="showArticle">
+        <h2 class="showHeader">Thank you!</h2>
+        <p class="showP">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </article>
+    </div>
+
+    <!-- Thank you state end -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
