@@ -202,7 +202,10 @@ p {
   color: hsl(25, 97%, 53%);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
+  body {
+    flex-direction: row;
+  }
   .cardContainer,
   .showContainer {
     max-width: 250px;
@@ -215,6 +218,7 @@ p {
   }
   .numberBtnContainer {
     min-width: 250px;
+    justify-content: space-between;
   }
   .numberBtn {
     height: 45px;
