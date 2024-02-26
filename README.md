@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://interactive-rating-adrianr1189.pages.dev/
 - Frontend Mentor Challenge URL: https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI
 
 ### Built with
